@@ -1,8 +1,6 @@
-<div align="center">
-<img src="./docs/images/icon.svg" alt="icon"/>
+<h1 align="center">ChatGPT</h1>
+English / [简体中文](./README_CN.md)
 </div>
-## Features
-
 - **Deploy for free with one-click** on Vercel in under 1 minute
 - Privacy first, all data stored locally in the browser
 - Markdown support: LaTex, mermaid, code highlight, etc.

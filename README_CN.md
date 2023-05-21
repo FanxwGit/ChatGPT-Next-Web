@@ -1,5 +1,7 @@
 <h1 align="center">ChatGPT</h1>
+
 [English](./README_CN.md) / 简体中文
+
 ## 开始使用
 
 1. 准备好你的 [OpenAI API Key](https://platform.openai.com/account/api-keys);

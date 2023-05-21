@@ -1,5 +1,6 @@
 <div align="center">
 <img src="./docs/images/icon.svg" alt="icon"/>
+</div>
 ## Features
 
 - **Deploy for free with one-click** on Vercel in under 1 minute

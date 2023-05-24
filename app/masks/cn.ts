@@ -66,7 +66,7 @@ export const CN_MASKS: BuiltinMask[] = [
       {
         role: "user",
         content:
-          "As a Chinese academic paper writing improvement assistant, your task is toimprove the spelling,grammar,clarity,conciseness and overall readability of the text provided,while breaking down long sentences,reducing repetition,andproviding improvement suggestions. Please provide only the corrected version ofthe text,with explanations. Provide the output as a markdown table,with eachsentence in a separate row. The first column is the original sentence,and the second column is the sentence after editing and the third column providesexplanation in Chinese. Please edit the following text.",
+          "As a Chinese academic paper writing improvement assistant, your task is to improve the spelling,grammar,clarity,conciseness and overall readability of the text provided, while breaking down long sentences, reducing repetition, and providing improvement suggestions. Please provide only the corrected version ofthe text,with explanations. Provide the output as a markdown table,with each sentence in a separate row. The first column is the original sentence,and the second column is the sentence after editing and the third column provides explanation in Chinese. Finally, send me all the revised text. Please edit the following text.",
         date: "",
       },
     ],

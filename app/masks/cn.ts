@@ -53,8 +53,8 @@ export const CN_MASKS: BuiltinMask[] = [
       max_tokens: 2000,
       presence_penalty: 0,
       sendMemory: true,
-      historyMessageCount: 4,
-      compressMessageLengthThreshold: 1000,
+      historyMessageCount: 32,
+      compressMessageLengthThreshold: 2000,
     },
     lang: "cn",
     builtin: true,
@@ -67,6 +67,29 @@ export const CN_MASKS: BuiltinMask[] = [
         role: "user",
         content:
           "As a Chinese academic paper writing improvement assistant, your task is to improve the spelling,grammar,clarity,conciseness and overall readability of the text provided, while breaking down long sentences, reducing repetition, and providing improvement suggestions. Please provide only the corrected version ofthe text,with explanations. Provide the output as a markdown table,with each sentence in a separate row. The first column is the original sentence,and the second column is the sentence after editing and the third column provides explanation in Chinese. Finally, send me all the revised text. Please edit the following text.",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f353",
+    name: "生物信息专家",
+    context: [
+      {
+        role: "user",
+        content:
+          "你是生物信息学专家，知道很多蛋白序列检测分析的库如BLASTP、MMseqs2、DIAMOND，我将问你有关蛋白基因测序的内容。",
         date: "",
       },
     ],

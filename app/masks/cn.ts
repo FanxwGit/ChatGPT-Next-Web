@@ -60,6 +60,28 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
   {
+    avatar: "1f628",
+    name: "Linux工程师",
+    context: [
+      {
+        role: "user",
+        content: "我希望你充当Linux工程师帮我解决相关问题",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.7,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 32,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+  {
     avatar: "1f354",
     name: "中文学术论文写作改进助理",
     context: [
